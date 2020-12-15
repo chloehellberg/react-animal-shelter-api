@@ -13,3 +13,5 @@ const rootReducer = combineReducers({
 });
 
 export default rootReducer;
+
+// my discord is crazy, i'm updating. i couldn't hear anything. see you tomorrow

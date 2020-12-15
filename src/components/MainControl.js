@@ -25,14 +25,12 @@ class MainControl extends React.Component {
       dispatch(makeApiCall());
     }
     
-
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
-    console.log("Api: ", this.props.animals);
     if (this.props.animalPageShowing) {
       currentlyVisibleState = <AnimalApiHelper callApi={this.props.animalApiHelper} animals={this.props.animals}/>  
-      buttonText = " ";
+      buttonText = "Return to Homepage";
     } else {
       currentlyVisibleState = <Homepage />
       buttonText = "View Animals";
