@@ -1,12 +1,94 @@
 import React from 'react';
-import AnimalApiHelper from './AnimalApiHelper';
+//import AnimalApiHelper from './AnimalApiHelper';
+import MainControl from './MainControl';
+//import Homepage from './Homepage';
 
 function App() {
   return (
     <React.Fragment>
-      < AnimalApiHelper />
+      <div className="container">
+        <MainControl />
+      </div>
     </React.Fragment>
   );
 }
 
+
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

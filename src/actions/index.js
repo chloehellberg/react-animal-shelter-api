@@ -12,6 +12,15 @@ export const getAnimalsFailure = (error) => ({
   error
 });
 
+export const toggleAnimalShowing = () => ({
+  type: c.TOGGLE_ANIMAL_SHOWING
+});
+
+export const toggleHomepageShowing = () => ({
+  type: c.TOGGLE_HOMEPAGE_SHOWING
+});
+
+
 export const makeApiCall = () => {
   return dispatch => {
     dispatch(requestAnimals);
