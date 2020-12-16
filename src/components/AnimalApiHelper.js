@@ -24,6 +24,7 @@ function AnimalApiHelper(props) {
   let dogs = props.animals.animals.filter(animals => animals.species === "Dog");
   let female = props.animals.animals.filter(animals => animals.gender === "Female");
   let male = props.animals.animals.filter(animals => animals.gender === "Male");
+  
   function showCats() {
     setFilteredAnimals(cats);
   };
@@ -33,14 +34,15 @@ function AnimalApiHelper(props) {
   };
   function showMale() {
     setFilteredAnimals(male);
-  }
+  };
+
   function showFemale() {
     setFilteredAnimals(female);
-  }
+  };
 
   function showAll() {
     setFilteredAnimals(props.animals.animals);
-  }
+  };
 
   return (
 
@@ -99,6 +101,11 @@ AnimalApiHelper.propTypes = {
 // }
 
 export default AnimalApiHelper;
+
+
+
+
+// const 
 
 
 
